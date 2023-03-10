@@ -1,0 +1,4 @@
+#Fri Mar 10 13:20:06 COT 2023
+base.0=/Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

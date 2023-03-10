@@ -1,0 +1,141 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="dev.bodytech.co"
+4    android:versionCode="1"
+5    android:versionName="4.5.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+9        android:targetSdkVersion="31" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:9:5-66
+14-->/Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:9:22-64
+15    <uses-permission android:name="android.permission.ACTIVITY_RECOGNITION" />
+15-->/Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:10:5-78
+15-->/Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:10:22-76
+16    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+16-->/Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:11:5-80
+16-->/Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:11:22-78
+17    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+17-->/Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:12:5-78
+17-->/Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:12:22-76
+18
+19    <application
+19-->/Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:13:5-32:19
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.6.0] /Users/deybivelandia/.gradle/caches/transforms-3/aa76bcb98ee751cbd5dd50f042230e99/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
+21        android:debuggable="true"
+22        android:icon="@mipmap/ic_launcher"
+22-->/Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:14:9-43
+23        android:label="health_example" >
+23-->/Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:13:18-48
+24        <activity
+24-->/Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:15:9-31:20
+25            android:name="dev.bodytech.co.MainActivity"
+25-->/Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:15:19-47
+26            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+26-->/Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:18:13-144
+27            android:exported="true"
+27-->/Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:20:13-36
+28            android:hardwareAccelerated="true"
+28-->/Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:19:13-47
+29            android:launchMode="singleTop"
+29-->/Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:16:13-43
+30            android:theme="@style/LaunchTheme"
+30-->/Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:17:13-47
+31            android:windowSoftInputMode="adjustResize" >
+31-->/Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:21:13-55
+32
+33            <!-- Theme to apply as soon as Flutter begins rendering frames -->
+34            <meta-data
+34-->/Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:23:13-24:57
+35                android:name="io.flutter.embedding.android.NormalTheme"
+35-->/Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:23:24-79
+36                android:resource="@style/NormalTheme" />
+36-->/Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:24:17-54
+37            <meta-data
+37-->/Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:25:13-26:36
+38                android:name="flutterEmbedding"
+38-->/Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:25:24-55
+39                android:value="2" />
+39-->/Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:26:17-34
+40
+41            <intent-filter>
+41-->/Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:27:13-30:29
+42                <action android:name="android.intent.action.MAIN" />
+42-->/Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:28:17-68
+42-->/Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:28:25-66
+43
+44                <category android:name="android.intent.category.LAUNCHER" />
+44-->/Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:29:17-76
+44-->/Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:29:27-74
+45            </intent-filter>
+46        </activity>
+47
+48        <uses-library
+48-->[androidx.window:window:1.0.0-beta04] /Users/deybivelandia/.gradle/caches/transforms-3/92230fcacca31ba75642bf83ebabcfa7/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+49            android:name="androidx.window.extensions"
+49-->[androidx.window:window:1.0.0-beta04] /Users/deybivelandia/.gradle/caches/transforms-3/92230fcacca31ba75642bf83ebabcfa7/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+50            android:required="false" />
+50-->[androidx.window:window:1.0.0-beta04] /Users/deybivelandia/.gradle/caches/transforms-3/92230fcacca31ba75642bf83ebabcfa7/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+51        <uses-library
+51-->[androidx.window:window:1.0.0-beta04] /Users/deybivelandia/.gradle/caches/transforms-3/92230fcacca31ba75642bf83ebabcfa7/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+52            android:name="androidx.window.sidecar"
+52-->[androidx.window:window:1.0.0-beta04] /Users/deybivelandia/.gradle/caches/transforms-3/92230fcacca31ba75642bf83ebabcfa7/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+53            android:required="false" />
+53-->[androidx.window:window:1.0.0-beta04] /Users/deybivelandia/.gradle/caches/transforms-3/92230fcacca31ba75642bf83ebabcfa7/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+54
+55        <meta-data
+55-->[com.google.android.gms:play-services-fitness:21.1.0] /Users/deybivelandia/.gradle/caches/transforms-3/3045381536bbd91db80955c34709bdc2/transformed/jetified-play-services-fitness-21.1.0/AndroidManifest.xml:23:9-25:38
+56            android:name="com.google.gms.fitness.sdk.version"
+56-->[com.google.android.gms:play-services-fitness:21.1.0] /Users/deybivelandia/.gradle/caches/transforms-3/3045381536bbd91db80955c34709bdc2/transformed/jetified-play-services-fitness-21.1.0/AndroidManifest.xml:24:13-62
+57            android:value="21.1.0" />
+57-->[com.google.android.gms:play-services-fitness:21.1.0] /Users/deybivelandia/.gradle/caches/transforms-3/3045381536bbd91db80955c34709bdc2/transformed/jetified-play-services-fitness-21.1.0/AndroidManifest.xml:25:13-35
+58
+59        <activity
+59-->[com.google.android.gms:play-services-auth:20.2.0] /Users/deybivelandia/.gradle/caches/transforms-3/fe0a7997ed6f5808821a40d9e4bdd48e/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:23:9-27:75
+60            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+60-->[com.google.android.gms:play-services-auth:20.2.0] /Users/deybivelandia/.gradle/caches/transforms-3/fe0a7997ed6f5808821a40d9e4bdd48e/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:24:13-93
+61            android:excludeFromRecents="true"
+61-->[com.google.android.gms:play-services-auth:20.2.0] /Users/deybivelandia/.gradle/caches/transforms-3/fe0a7997ed6f5808821a40d9e4bdd48e/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:25:13-46
+62            android:exported="false"
+62-->[com.google.android.gms:play-services-auth:20.2.0] /Users/deybivelandia/.gradle/caches/transforms-3/fe0a7997ed6f5808821a40d9e4bdd48e/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:26:13-37
+63            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+63-->[com.google.android.gms:play-services-auth:20.2.0] /Users/deybivelandia/.gradle/caches/transforms-3/fe0a7997ed6f5808821a40d9e4bdd48e/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:27:13-72
+64        <!--
+65            Service handling Google Sign-In user revocation. For apps that do not integrate with
+66            Google Sign-In, this service will never be started.
+67        -->
+68        <service
+68-->[com.google.android.gms:play-services-auth:20.2.0] /Users/deybivelandia/.gradle/caches/transforms-3/fe0a7997ed6f5808821a40d9e4bdd48e/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:33:9-37:51
+69            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+69-->[com.google.android.gms:play-services-auth:20.2.0] /Users/deybivelandia/.gradle/caches/transforms-3/fe0a7997ed6f5808821a40d9e4bdd48e/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:34:13-89
+70            android:exported="true"
+70-->[com.google.android.gms:play-services-auth:20.2.0] /Users/deybivelandia/.gradle/caches/transforms-3/fe0a7997ed6f5808821a40d9e4bdd48e/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:35:13-36
+71            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+71-->[com.google.android.gms:play-services-auth:20.2.0] /Users/deybivelandia/.gradle/caches/transforms-3/fe0a7997ed6f5808821a40d9e4bdd48e/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:36:13-107
+72            android:visibleToInstantApps="true" />
+72-->[com.google.android.gms:play-services-auth:20.2.0] /Users/deybivelandia/.gradle/caches/transforms-3/fe0a7997ed6f5808821a40d9e4bdd48e/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:37:13-48
+73
+74        <activity
+74-->[com.google.android.gms:play-services-base:18.0.1] /Users/deybivelandia/.gradle/caches/transforms-3/517d888c7b328025534d7c9a8d8792a3/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+75            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+75-->[com.google.android.gms:play-services-base:18.0.1] /Users/deybivelandia/.gradle/caches/transforms-3/517d888c7b328025534d7c9a8d8792a3/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+76            android:exported="false"
+76-->[com.google.android.gms:play-services-base:18.0.1] /Users/deybivelandia/.gradle/caches/transforms-3/517d888c7b328025534d7c9a8d8792a3/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+77            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+77-->[com.google.android.gms:play-services-base:18.0.1] /Users/deybivelandia/.gradle/caches/transforms-3/517d888c7b328025534d7c9a8d8792a3/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+78
+79        <meta-data
+79-->[com.google.android.gms:play-services-basement:18.0.0] /Users/deybivelandia/.gradle/caches/transforms-3/871115f871f930a0f5909f2b620bc3b0/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+80            android:name="com.google.android.gms.version"
+80-->[com.google.android.gms:play-services-basement:18.0.0] /Users/deybivelandia/.gradle/caches/transforms-3/871115f871f930a0f5909f2b620bc3b0/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
+81            android:value="@integer/google_play_services_version" />
+81-->[com.google.android.gms:play-services-basement:18.0.0] /Users/deybivelandia/.gradle/caches/transforms-3/871115f871f930a0f5909f2b620bc3b0/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+82    </application>
+83
+84</manifest>

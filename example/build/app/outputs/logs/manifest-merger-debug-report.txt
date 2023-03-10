@@ -1,0 +1,255 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:1:1-33:12
+INJECTED from /Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:1:1-33:12
+INJECTED from /Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:1:1-33:12
+INJECTED from /Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:1:1-33:12
+MERGED from /Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:1:1-33:12
+MERGED from [:permission_handler_android] /Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/build/permission_handler_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:health] /Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/build/health/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:device_info_plus] /Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/build/device_info_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/deybivelandia/.gradle/caches/transforms-3/baf4a5755803fe094ac173a15039afd1/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/deybivelandia/.gradle/caches/transforms-3/92230fcacca31ba75642bf83ebabcfa7/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:17:1-33:12
+MERGED from [com.google.android.gms:play-services-fitness:21.1.0] /Users/deybivelandia/.gradle/caches/transforms-3/3045381536bbd91db80955c34709bdc2/transformed/jetified-play-services-fitness-21.1.0/AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.gms:play-services-auth:20.2.0] /Users/deybivelandia/.gradle/caches/transforms-3/fe0a7997ed6f5808821a40d9e4bdd48e/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.1] /Users/deybivelandia/.gradle/caches/transforms-3/aa1b718cc5f7cafacca45b867e4e7039/transformed/jetified-play-services-auth-api-phone-18.0.1/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.1] /Users/deybivelandia/.gradle/caches/transforms-3/54c1ad1b6e09c2086478e0510b5b4a87/transformed/jetified-play-services-auth-base-18.0.1/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/deybivelandia/.gradle/caches/transforms-3/517d888c7b328025534d7c9a8d8792a3/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/deybivelandia/.gradle/caches/transforms-3/bfb25e70f31b1de6cf120aecee96ae80/transformed/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/deybivelandia/.gradle/caches/transforms-3/871115f871f930a0f5909f2b620bc3b0/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/deybivelandia/.gradle/caches/transforms-3/fa93194a2ec2e7479e3023041e3f0621/transformed/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/deybivelandia/.gradle/caches/transforms-3/c3c64d00a026f9d3c3313fc0ad9d7c21/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/deybivelandia/.gradle/caches/transforms-3/236109035379667edfc74056bd2e838d/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] /Users/deybivelandia/.gradle/caches/transforms-3/08c4dff01fa62da4d18810cdef17440a/transformed/jetified-activity-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/deybivelandia/.gradle/caches/transforms-3/f669ead5cc31af52b4f68bcd158a1275/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.6.0] /Users/deybivelandia/.gradle/caches/transforms-3/aa76bcb98ee751cbd5dd50f042230e99/transformed/core-1.6.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/deybivelandia/.gradle/caches/transforms-3/69a6175182a5568da7f841a8f5975e81/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/deybivelandia/.gradle/caches/transforms-3/8d99becaf8e5d4abca849dbdf317a84d/transformed/lifecycle-runtime-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/deybivelandia/.gradle/caches/transforms-3/0a5d0eea61db60c91c386fbc23fa802d/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/deybivelandia/.gradle/caches/transforms-3/c2d2886c1296bba44547a0c289a3f2e6/transformed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/deybivelandia/.gradle/caches/transforms-3/cb8065d9f2602a16ccbfe230eb166242/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/deybivelandia/.gradle/caches/transforms-3/5040acde46f44b17ae006ebbddcedbe6/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/deybivelandia/.gradle/caches/transforms-3/0cd229d0c5e9c00141fc3ff5d10644a5/transformed/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/deybivelandia/.gradle/caches/transforms-3/32f731686ce3ad1ad7f0927730c99829/transformed/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/deybivelandia/.gradle/caches/transforms-3/9ef9d77a8a4758c69ad353e1e64e55c4/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
+INJECTED from /Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/android/app/src/debug/AndroidManifest.xml:1:1-10:12
+INJECTED from /Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/android/app/src/debug/AndroidManifest.xml:1:1-10:12
+INJECTED from /Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/android/app/src/debug/AndroidManifest.xml:1:1-10:12
+	package
+		ADDED from /Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:2:5-30
+		INJECTED from /Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/android/app/src/debug/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:1:1-33:12
+		INJECTED from /Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/android/app/src/debug/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:1:1-33:12
+		INJECTED from /Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/android/app/src/debug/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:9:5-66
+MERGED from /Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:9:5-66
+MERGED from /Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:9:5-66
+	android:name
+		ADDED from /Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:9:22-64
+uses-permission#android.permission.ACTIVITY_RECOGNITION
+ADDED from /Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:10:5-78
+MERGED from /Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:10:5-78
+MERGED from /Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:10:5-78
+	android:name
+		ADDED from /Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:10:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:11:5-80
+MERGED from /Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:11:5-80
+MERGED from /Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:11:5-80
+	android:name
+		ADDED from /Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:11:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:12:5-78
+MERGED from /Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:12:5-78
+MERGED from /Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:12:5-78
+	android:name
+		ADDED from /Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:12:22-76
+application
+ADDED from /Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:13:5-32:19
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/deybivelandia/.gradle/caches/transforms-3/92230fcacca31ba75642bf83ebabcfa7/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/deybivelandia/.gradle/caches/transforms-3/92230fcacca31ba75642bf83ebabcfa7/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:24:5-31:19
+MERGED from [com.google.android.gms:play-services-fitness:21.1.0] /Users/deybivelandia/.gradle/caches/transforms-3/3045381536bbd91db80955c34709bdc2/transformed/jetified-play-services-fitness-21.1.0/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-fitness:21.1.0] /Users/deybivelandia/.gradle/caches/transforms-3/3045381536bbd91db80955c34709bdc2/transformed/jetified-play-services-fitness-21.1.0/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-auth:20.2.0] /Users/deybivelandia/.gradle/caches/transforms-3/fe0a7997ed6f5808821a40d9e4bdd48e/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.android.gms:play-services-auth:20.2.0] /Users/deybivelandia/.gradle/caches/transforms-3/fe0a7997ed6f5808821a40d9e4bdd48e/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/deybivelandia/.gradle/caches/transforms-3/517d888c7b328025534d7c9a8d8792a3/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/deybivelandia/.gradle/caches/transforms-3/517d888c7b328025534d7c9a8d8792a3/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/deybivelandia/.gradle/caches/transforms-3/bfb25e70f31b1de6cf120aecee96ae80/transformed/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/deybivelandia/.gradle/caches/transforms-3/bfb25e70f31b1de6cf120aecee96ae80/transformed/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/deybivelandia/.gradle/caches/transforms-3/871115f871f930a0f5909f2b620bc3b0/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/deybivelandia/.gradle/caches/transforms-3/871115f871f930a0f5909f2b620bc3b0/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.core:core:1.6.0] /Users/deybivelandia/.gradle/caches/transforms-3/aa76bcb98ee751cbd5dd50f042230e99/transformed/core-1.6.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.6.0] /Users/deybivelandia/.gradle/caches/transforms-3/aa76bcb98ee751cbd5dd50f042230e99/transformed/core-1.6.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/deybivelandia/.gradle/caches/transforms-3/69a6175182a5568da7f841a8f5975e81/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/deybivelandia/.gradle/caches/transforms-3/69a6175182a5568da7f841a8f5975e81/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.6.0] /Users/deybivelandia/.gradle/caches/transforms-3/aa76bcb98ee751cbd5dd50f042230e99/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
+	android:label
+		ADDED from /Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:13:18-48
+	android:icon
+		ADDED from /Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:14:9-43
+activity#dev.bodytech.co.MainActivity
+ADDED from /Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:15:9-31:20
+	android:launchMode
+		ADDED from /Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:16:13-43
+	android:hardwareAccelerated
+		ADDED from /Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:19:13-47
+	android:windowSoftInputMode
+		ADDED from /Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:21:13-55
+	android:exported
+		ADDED from /Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:20:13-36
+	android:configChanges
+		ADDED from /Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:18:13-144
+	android:theme
+		ADDED from /Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:17:13-47
+	android:name
+		ADDED from /Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:15:19-47
+meta-data#io.flutter.embedding.android.NormalTheme
+ADDED from /Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:23:13-24:57
+	android:resource
+		ADDED from /Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:24:17-54
+	android:name
+		ADDED from /Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:23:24-79
+meta-data#flutterEmbedding
+ADDED from /Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:25:13-26:36
+	android:value
+		ADDED from /Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:26:17-34
+	android:name
+		ADDED from /Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:25:24-55
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:27:13-30:29
+action#android.intent.action.MAIN
+ADDED from /Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:28:17-68
+	android:name
+		ADDED from /Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:28:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:29:17-76
+	android:name
+		ADDED from /Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:29:27-74
+uses-sdk
+INJECTED from /Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml
+MERGED from [:permission_handler_android] /Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/build/permission_handler_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:permission_handler_android] /Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/build/permission_handler_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:health] /Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/build/health/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:health] /Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/build/health/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:device_info_plus] /Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/build/device_info_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:device_info_plus] /Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/build/device_info_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/deybivelandia/.gradle/caches/transforms-3/baf4a5755803fe094ac173a15039afd1/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/deybivelandia/.gradle/caches/transforms-3/baf4a5755803fe094ac173a15039afd1/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/deybivelandia/.gradle/caches/transforms-3/92230fcacca31ba75642bf83ebabcfa7/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/deybivelandia/.gradle/caches/transforms-3/92230fcacca31ba75642bf83ebabcfa7/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-fitness:21.1.0] /Users/deybivelandia/.gradle/caches/transforms-3/3045381536bbd91db80955c34709bdc2/transformed/jetified-play-services-fitness-21.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-fitness:21.1.0] /Users/deybivelandia/.gradle/caches/transforms-3/3045381536bbd91db80955c34709bdc2/transformed/jetified-play-services-fitness-21.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:20.2.0] /Users/deybivelandia/.gradle/caches/transforms-3/fe0a7997ed6f5808821a40d9e4bdd48e/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:20.2.0] /Users/deybivelandia/.gradle/caches/transforms-3/fe0a7997ed6f5808821a40d9e4bdd48e/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.1] /Users/deybivelandia/.gradle/caches/transforms-3/aa1b718cc5f7cafacca45b867e4e7039/transformed/jetified-play-services-auth-api-phone-18.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.1] /Users/deybivelandia/.gradle/caches/transforms-3/aa1b718cc5f7cafacca45b867e4e7039/transformed/jetified-play-services-auth-api-phone-18.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.1] /Users/deybivelandia/.gradle/caches/transforms-3/54c1ad1b6e09c2086478e0510b5b4a87/transformed/jetified-play-services-auth-base-18.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.1] /Users/deybivelandia/.gradle/caches/transforms-3/54c1ad1b6e09c2086478e0510b5b4a87/transformed/jetified-play-services-auth-base-18.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/deybivelandia/.gradle/caches/transforms-3/517d888c7b328025534d7c9a8d8792a3/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/deybivelandia/.gradle/caches/transforms-3/517d888c7b328025534d7c9a8d8792a3/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/deybivelandia/.gradle/caches/transforms-3/bfb25e70f31b1de6cf120aecee96ae80/transformed/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/deybivelandia/.gradle/caches/transforms-3/bfb25e70f31b1de6cf120aecee96ae80/transformed/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/deybivelandia/.gradle/caches/transforms-3/871115f871f930a0f5909f2b620bc3b0/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/deybivelandia/.gradle/caches/transforms-3/871115f871f930a0f5909f2b620bc3b0/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:18:5-43
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/deybivelandia/.gradle/caches/transforms-3/fa93194a2ec2e7479e3023041e3f0621/transformed/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/deybivelandia/.gradle/caches/transforms-3/fa93194a2ec2e7479e3023041e3f0621/transformed/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.loader:loader:1.0.0] /Users/deybivelandia/.gradle/caches/transforms-3/c3c64d00a026f9d3c3313fc0ad9d7c21/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/deybivelandia/.gradle/caches/transforms-3/c3c64d00a026f9d3c3313fc0ad9d7c21/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/deybivelandia/.gradle/caches/transforms-3/236109035379667edfc74056bd2e838d/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/deybivelandia/.gradle/caches/transforms-3/236109035379667edfc74056bd2e838d/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] /Users/deybivelandia/.gradle/caches/transforms-3/08c4dff01fa62da4d18810cdef17440a/transformed/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /Users/deybivelandia/.gradle/caches/transforms-3/08c4dff01fa62da4d18810cdef17440a/transformed/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] /Users/deybivelandia/.gradle/caches/transforms-3/f669ead5cc31af52b4f68bcd158a1275/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/deybivelandia/.gradle/caches/transforms-3/f669ead5cc31af52b4f68bcd158a1275/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.6.0] /Users/deybivelandia/.gradle/caches/transforms-3/aa76bcb98ee751cbd5dd50f042230e99/transformed/core-1.6.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.6.0] /Users/deybivelandia/.gradle/caches/transforms-3/aa76bcb98ee751cbd5dd50f042230e99/transformed/core-1.6.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/deybivelandia/.gradle/caches/transforms-3/69a6175182a5568da7f841a8f5975e81/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/deybivelandia/.gradle/caches/transforms-3/69a6175182a5568da7f841a8f5975e81/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/deybivelandia/.gradle/caches/transforms-3/8d99becaf8e5d4abca849dbdf317a84d/transformed/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/deybivelandia/.gradle/caches/transforms-3/8d99becaf8e5d4abca849dbdf317a84d/transformed/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/deybivelandia/.gradle/caches/transforms-3/0a5d0eea61db60c91c386fbc23fa802d/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/deybivelandia/.gradle/caches/transforms-3/0a5d0eea61db60c91c386fbc23fa802d/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/deybivelandia/.gradle/caches/transforms-3/c2d2886c1296bba44547a0c289a3f2e6/transformed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/deybivelandia/.gradle/caches/transforms-3/c2d2886c1296bba44547a0c289a3f2e6/transformed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/deybivelandia/.gradle/caches/transforms-3/cb8065d9f2602a16ccbfe230eb166242/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/deybivelandia/.gradle/caches/transforms-3/cb8065d9f2602a16ccbfe230eb166242/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/deybivelandia/.gradle/caches/transforms-3/5040acde46f44b17ae006ebbddcedbe6/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/deybivelandia/.gradle/caches/transforms-3/5040acde46f44b17ae006ebbddcedbe6/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/deybivelandia/.gradle/caches/transforms-3/0cd229d0c5e9c00141fc3ff5d10644a5/transformed/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/deybivelandia/.gradle/caches/transforms-3/0cd229d0c5e9c00141fc3ff5d10644a5/transformed/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/deybivelandia/.gradle/caches/transforms-3/32f731686ce3ad1ad7f0927730c99829/transformed/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/deybivelandia/.gradle/caches/transforms-3/32f731686ce3ad1ad7f0927730c99829/transformed/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/deybivelandia/.gradle/caches/transforms-3/9ef9d77a8a4758c69ad353e1e64e55c4/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/deybivelandia/.gradle/caches/transforms-3/9ef9d77a8a4758c69ad353e1e64e55c4/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+INJECTED from /Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/android/app/src/debug/AndroidManifest.xml
+INJECTED from /Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/android/app/src/debug/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/android/app/src/debug/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/android/app/src/debug/AndroidManifest.xml
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.0.0-beta04] /Users/deybivelandia/.gradle/caches/transforms-3/92230fcacca31ba75642bf83ebabcfa7/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/deybivelandia/.gradle/caches/transforms-3/92230fcacca31ba75642bf83ebabcfa7/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/deybivelandia/.gradle/caches/transforms-3/92230fcacca31ba75642bf83ebabcfa7/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.0.0-beta04] /Users/deybivelandia/.gradle/caches/transforms-3/92230fcacca31ba75642bf83ebabcfa7/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/deybivelandia/.gradle/caches/transforms-3/92230fcacca31ba75642bf83ebabcfa7/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/deybivelandia/.gradle/caches/transforms-3/92230fcacca31ba75642bf83ebabcfa7/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+meta-data#com.google.gms.fitness.sdk.version
+ADDED from [com.google.android.gms:play-services-fitness:21.1.0] /Users/deybivelandia/.gradle/caches/transforms-3/3045381536bbd91db80955c34709bdc2/transformed/jetified-play-services-fitness-21.1.0/AndroidManifest.xml:23:9-25:38
+	android:value
+		ADDED from [com.google.android.gms:play-services-fitness:21.1.0] /Users/deybivelandia/.gradle/caches/transforms-3/3045381536bbd91db80955c34709bdc2/transformed/jetified-play-services-fitness-21.1.0/AndroidManifest.xml:25:13-35
+	android:name
+		ADDED from [com.google.android.gms:play-services-fitness:21.1.0] /Users/deybivelandia/.gradle/caches/transforms-3/3045381536bbd91db80955c34709bdc2/transformed/jetified-play-services-fitness-21.1.0/AndroidManifest.xml:24:13-62
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:20.2.0] /Users/deybivelandia/.gradle/caches/transforms-3/fe0a7997ed6f5808821a40d9e4bdd48e/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:20.2.0] /Users/deybivelandia/.gradle/caches/transforms-3/fe0a7997ed6f5808821a40d9e4bdd48e/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:20.2.0] /Users/deybivelandia/.gradle/caches/transforms-3/fe0a7997ed6f5808821a40d9e4bdd48e/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:20.2.0] /Users/deybivelandia/.gradle/caches/transforms-3/fe0a7997ed6f5808821a40d9e4bdd48e/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:20.2.0] /Users/deybivelandia/.gradle/caches/transforms-3/fe0a7997ed6f5808821a40d9e4bdd48e/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:20.2.0] /Users/deybivelandia/.gradle/caches/transforms-3/fe0a7997ed6f5808821a40d9e4bdd48e/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:33:9-37:51
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:20.2.0] /Users/deybivelandia/.gradle/caches/transforms-3/fe0a7997ed6f5808821a40d9e4bdd48e/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:35:13-36
+	android:visibleToInstantApps
+		ADDED from [com.google.android.gms:play-services-auth:20.2.0] /Users/deybivelandia/.gradle/caches/transforms-3/fe0a7997ed6f5808821a40d9e4bdd48e/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:37:13-48
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:20.2.0] /Users/deybivelandia/.gradle/caches/transforms-3/fe0a7997ed6f5808821a40d9e4bdd48e/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:20.2.0] /Users/deybivelandia/.gradle/caches/transforms-3/fe0a7997ed6f5808821a40d9e4bdd48e/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:34:13-89
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/deybivelandia/.gradle/caches/transforms-3/517d888c7b328025534d7c9a8d8792a3/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/deybivelandia/.gradle/caches/transforms-3/517d888c7b328025534d7c9a8d8792a3/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/deybivelandia/.gradle/caches/transforms-3/517d888c7b328025534d7c9a8d8792a3/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/deybivelandia/.gradle/caches/transforms-3/517d888c7b328025534d7c9a8d8792a3/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.0.0] /Users/deybivelandia/.gradle/caches/transforms-3/871115f871f930a0f5909f2b620bc3b0/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.0.0] /Users/deybivelandia/.gradle/caches/transforms-3/871115f871f930a0f5909f2b620bc3b0/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.0.0] /Users/deybivelandia/.gradle/caches/transforms-3/871115f871f930a0f5909f2b620bc3b0/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
