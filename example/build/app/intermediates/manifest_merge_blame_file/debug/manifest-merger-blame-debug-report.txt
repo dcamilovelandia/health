@@ -12,67 +12,67 @@
 12         to allow setting breakpoints, to provide hot reload, etc.
 13    -->
 14    <uses-permission android:name="android.permission.INTERNET" />
-14-->/Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:9:5-66
-14-->/Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:9:22-64
+14-->/Users/deybivelandia/Desktop/health/example/android/app/src/main/AndroidManifest.xml:9:5-66
+14-->/Users/deybivelandia/Desktop/health/example/android/app/src/main/AndroidManifest.xml:9:22-64
 15    <uses-permission android:name="android.permission.ACTIVITY_RECOGNITION" />
-15-->/Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:10:5-78
-15-->/Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:10:22-76
+15-->/Users/deybivelandia/Desktop/health/example/android/app/src/main/AndroidManifest.xml:10:5-78
+15-->/Users/deybivelandia/Desktop/health/example/android/app/src/main/AndroidManifest.xml:10:22-76
 16    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-16-->/Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:11:5-80
-16-->/Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:11:22-78
+16-->/Users/deybivelandia/Desktop/health/example/android/app/src/main/AndroidManifest.xml:11:5-80
+16-->/Users/deybivelandia/Desktop/health/example/android/app/src/main/AndroidManifest.xml:11:22-78
 17    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-17-->/Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:12:5-78
-17-->/Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:12:22-76
+17-->/Users/deybivelandia/Desktop/health/example/android/app/src/main/AndroidManifest.xml:12:5-78
+17-->/Users/deybivelandia/Desktop/health/example/android/app/src/main/AndroidManifest.xml:12:22-76
 18
 19    <application
-19-->/Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:13:5-32:19
+19-->/Users/deybivelandia/Desktop/health/example/android/app/src/main/AndroidManifest.xml:13:5-32:19
 20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 20-->[androidx.core:core:1.6.0] /Users/deybivelandia/.gradle/caches/transforms-3/aa76bcb98ee751cbd5dd50f042230e99/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
 21        android:debuggable="true"
 22        android:icon="@mipmap/ic_launcher"
-22-->/Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:14:9-43
+22-->/Users/deybivelandia/Desktop/health/example/android/app/src/main/AndroidManifest.xml:14:9-43
 23        android:label="health_example" >
-23-->/Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:13:18-48
+23-->/Users/deybivelandia/Desktop/health/example/android/app/src/main/AndroidManifest.xml:13:18-48
 24        <activity
-24-->/Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:15:9-31:20
+24-->/Users/deybivelandia/Desktop/health/example/android/app/src/main/AndroidManifest.xml:15:9-31:20
 25            android:name="dev.bodytech.co.MainActivity"
-25-->/Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:15:19-47
+25-->/Users/deybivelandia/Desktop/health/example/android/app/src/main/AndroidManifest.xml:15:19-47
 26            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
-26-->/Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:18:13-144
+26-->/Users/deybivelandia/Desktop/health/example/android/app/src/main/AndroidManifest.xml:18:13-144
 27            android:exported="true"
-27-->/Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:20:13-36
+27-->/Users/deybivelandia/Desktop/health/example/android/app/src/main/AndroidManifest.xml:20:13-36
 28            android:hardwareAccelerated="true"
-28-->/Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:19:13-47
+28-->/Users/deybivelandia/Desktop/health/example/android/app/src/main/AndroidManifest.xml:19:13-47
 29            android:launchMode="singleTop"
-29-->/Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:16:13-43
+29-->/Users/deybivelandia/Desktop/health/example/android/app/src/main/AndroidManifest.xml:16:13-43
 30            android:theme="@style/LaunchTheme"
-30-->/Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:17:13-47
+30-->/Users/deybivelandia/Desktop/health/example/android/app/src/main/AndroidManifest.xml:17:13-47
 31            android:windowSoftInputMode="adjustResize" >
-31-->/Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:21:13-55
+31-->/Users/deybivelandia/Desktop/health/example/android/app/src/main/AndroidManifest.xml:21:13-55
 32
 33            <!-- Theme to apply as soon as Flutter begins rendering frames -->
 34            <meta-data
-34-->/Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:23:13-24:57
+34-->/Users/deybivelandia/Desktop/health/example/android/app/src/main/AndroidManifest.xml:23:13-24:57
 35                android:name="io.flutter.embedding.android.NormalTheme"
-35-->/Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:23:24-79
+35-->/Users/deybivelandia/Desktop/health/example/android/app/src/main/AndroidManifest.xml:23:24-79
 36                android:resource="@style/NormalTheme" />
-36-->/Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:24:17-54
+36-->/Users/deybivelandia/Desktop/health/example/android/app/src/main/AndroidManifest.xml:24:17-54
 37            <meta-data
-37-->/Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:25:13-26:36
+37-->/Users/deybivelandia/Desktop/health/example/android/app/src/main/AndroidManifest.xml:25:13-26:36
 38                android:name="flutterEmbedding"
-38-->/Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:25:24-55
+38-->/Users/deybivelandia/Desktop/health/example/android/app/src/main/AndroidManifest.xml:25:24-55
 39                android:value="2" />
-39-->/Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:26:17-34
+39-->/Users/deybivelandia/Desktop/health/example/android/app/src/main/AndroidManifest.xml:26:17-34
 40
 41            <intent-filter>
-41-->/Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:27:13-30:29
+41-->/Users/deybivelandia/Desktop/health/example/android/app/src/main/AndroidManifest.xml:27:13-30:29
 42                <action android:name="android.intent.action.MAIN" />
-42-->/Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:28:17-68
-42-->/Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:28:25-66
+42-->/Users/deybivelandia/Desktop/health/example/android/app/src/main/AndroidManifest.xml:28:17-68
+42-->/Users/deybivelandia/Desktop/health/example/android/app/src/main/AndroidManifest.xml:28:25-66
 43
 44                <category android:name="android.intent.category.LAUNCHER" />
-44-->/Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:29:17-76
-44-->/Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:29:27-74
+44-->/Users/deybivelandia/Desktop/health/example/android/app/src/main/AndroidManifest.xml:29:17-76
+44-->/Users/deybivelandia/Desktop/health/example/android/app/src/main/AndroidManifest.xml:29:27-74
 45            </intent-filter>
 46        </activity>
 47

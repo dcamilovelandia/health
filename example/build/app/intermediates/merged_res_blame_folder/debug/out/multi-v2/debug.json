@@ -4224,25 +4224,6 @@
                     }
                 },
                 {
-                    "source": "/Users/deybivelandia/Desktop/flutter-plugins/packages/health/example/android/app/src/main/res/values/styles.xml",
-                    "from": {
-                        "startLines": "3,14",
-                        "startColumns": "4,4",
-                        "startOffsets": "173,807",
-                        "endLines": "7,16",
-                        "endColumns": "12,12",
-                        "endOffsets": "465,971"
-                    },
-                    "to": {
-                        "startLines": "120,124",
-                        "startColumns": "4,4",
-                        "startOffsets": "8584,8765",
-                        "endLines": "123,126",
-                        "endColumns": "12,12",
-                        "endOffsets": "8760,8929"
-                    }
-                },
-                {
                     "source": "/Users/deybivelandia/.gradle/caches/transforms-3/517d888c7b328025534d7c9a8d8792a3/transformed/jetified-play-services-base-18.0.1/res/values/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,33,46",
@@ -4295,6 +4276,25 @@
                         "startOffsets": "6042,7220",
                         "endColumns": "67,166",
                         "endOffsets": "6105,7382"
+                    }
+                },
+                {
+                    "source": "/Users/deybivelandia/Desktop/health/example/android/app/src/main/res/values/styles.xml",
+                    "from": {
+                        "startLines": "3,14",
+                        "startColumns": "4,4",
+                        "startOffsets": "173,807",
+                        "endLines": "7,16",
+                        "endColumns": "12,12",
+                        "endOffsets": "465,971"
+                    },
+                    "to": {
+                        "startLines": "120,124",
+                        "startColumns": "4,4",
+                        "startOffsets": "8584,8765",
+                        "endLines": "123,126",
+                        "endColumns": "12,12",
+                        "endOffsets": "8760,8929"
                     }
                 }
             ]

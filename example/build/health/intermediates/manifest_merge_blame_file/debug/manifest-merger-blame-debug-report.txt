@@ -3,6 +3,6 @@
 3    package="cachet.plugins.health" >
 4
 5    <uses-sdk android:minSdkVersion="16" />
-5-->/Users/deybivelandia/Desktop/flutter-plugins/packages/health/android/src/main/AndroidManifest.xml
+5-->/Users/deybivelandia/Desktop/health/android/src/main/AndroidManifest.xml
 6
 7</manifest>

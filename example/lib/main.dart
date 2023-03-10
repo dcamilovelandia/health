@@ -38,6 +38,12 @@ class _HealthDataScreenState extends State<HealthDataScreen> {
   String? bloodPreSys;
   String? bloodPreDia;
 
+  bool workoutSuccess = false;
+
+  // get data within the last 24 hours
+  final now = DateTime.now();
+  late DateTime yesterday;
+
   List<HealthDataPoint> healthData = [];
 
   HealthFactory health = HealthFactory();
@@ -47,8 +53,10 @@ class _HealthDataScreenState extends State<HealthDataScreen> {
     super.initState();
     Future.delayed(Duration.zero, () async {
       await Permission.activityRecognition.request();
+      await fetchData();
     });
-    fetchData();
+    yesterday = now.subtract(
+    Duration(hours: now.hour, minutes: now.minute, seconds: now.second));
   }
 
   /// Fetch data points from the health plugin and show them in the app.
@@ -89,13 +97,6 @@ class _HealthDataScreenState extends State<HealthDataScreen> {
       HealthDataAccess.READ_WRITE,
       HealthDataAccess.READ_WRITE,
     ];
-
-    // get data within the last 24 hours
-    final now = DateTime.now();
-    final yesterday = now.subtract(
-        Duration(hours: now.hour, minutes: now.minute, seconds: now.second));
-
-    print('yesterday => $yesterday');
 
     // requesting access to the data types before reading them
     bool requested =
@@ -208,24 +209,78 @@ class _HealthDataScreenState extends State<HealthDataScreen> {
                         color: const Color(0xFFf77e7e))),
               ],
             ),
-            Row(
-              children: [
-                Expanded(
-                    child: healthCard(
-                        title: "Weight ",
-                        data: weight.toString(),
-                        color: const Color(0xFF2086fd))),
-                const SizedBox(
-                  width: 10,
+            GestureDetector(
+              onTap: () async{
+                bool success = await health.writeHealthData(1000, HealthDataType.STEPS, now, now);
+                await health.revokePermissions();
+                print('===========');
+                print(success);
+                setState(() {
+                  workoutSuccess = success;
+                });
+                print('===========');
+              },
+              child: Container(
+                width: double.infinity,
+                height: 100,
+                color: Colors.amber,
+                child: Center(
+                  child: Text(
+                      workoutSuccess.toString(),
+                    textAlign: TextAlign.center,
+                    style: TextStyle(
+                      color: Colors.white,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
                 ),
-                Expanded(
-                    child: healthCard(
-                        title: "Energy burned",
-                        image:
-                            "https://cdn-icons-png.flaticon.com/512/4812/4812908.png",
-                        data: "$activeEnergy cal",
-                        color: const Color(0xFFf77e7e))),
-              ],
+              ),
+            ),
+            SizedBox(
+              height: 30,
+            ),
+            GestureDetector(
+              onTap: () async{
+                await health.revokePermissions();
+              },
+              child: Container(
+                width: double.infinity,
+                height: 100,
+                color: Colors.green,
+                child: Center(
+                  child: Text(
+                    'delete',
+                    textAlign: TextAlign.center,
+                    style: TextStyle(
+                      color: Colors.white,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
+                ),
+              ),
+            ),
+            SizedBox(
+              height: 30,
+            ),
+            GestureDetector(
+              onTap: () async{
+                await health.revokePermissions();
+              },
+              child: Container(
+                width: double.infinity,
+                height: 100,
+                color: Colors.green,
+                child: Center(
+                  child: Text(
+                    'permission',
+                    textAlign: TextAlign.center,
+                    style: TextStyle(
+                      color: Colors.white,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
+                ),
+              ),
             )
           ],
         ),
